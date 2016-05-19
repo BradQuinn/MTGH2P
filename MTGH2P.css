@@ -1,0 +1,118 @@
+body {
+  font-family: "Open Sans",sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #151515;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0px 191px;
+  border: none;
+  padding: none;
+}
+
+.header {
+  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/bg-header.png) 0 0 repeat-x;
+  background-size: auto 100%;
+  height: 100px;
+
+}
+
+.header .home {
+  background: url(http://magic.wizards.com/sites/mtg/files/logo-magic.png) center center no-repeat;
+  background-size: cover;
+  width:258px;
+  height:104px;
+  float: left;
+}
+
+.nav-top{
+  height: 50px;
+  width: 50%;
+  float: right;
+}
+
+.header h4 {
+  display: inline;
+  float: right;
+}
+
+.nav-main{
+  height:50px;
+  width: 100%;
+}
+
+
+.header ul {
+  list-style: none;
+  padding: 0 20px;
+  float: right;
+
+
+}
+
+.header li {
+  display: inline;
+  min-width: 140px;
+  float: left;
+  text-align: center;
+  height: 50px;
+  vertical-align: middle;
+  border-left: 1px solid white;
+
+}
+
+.header li a {
+  color: white;
+
+  height: 50px;
+  font-size: 1em;
+  text-align: center;
+
+}
+
+.jumbotron {
+  background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_AboutTheGame_Header_12.jpg) center top;
+  background-size: cover;
+  height: 500px;
+  margin-top: 0!important;
+}
+
+.jumbotron .title {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.main {
+  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/background.jpg) center center;
+}
+
+.disps {
+  color: white;
+}
+
+.disp1 {
+  background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_CardSetArchive_inlineR_A_4.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.disp3 {
+  background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_Deckbuilding_InlineR_A.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.disp4 {
+  background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_History_InlineR_A_0.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
