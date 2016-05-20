@@ -85,8 +85,10 @@ a {
 
 }
 
-.header .menu span {
-
+.header .active {
+  border-bottom: 3px solid #be630e;
+  box-sizing: border-box;
+  height: 50px!important;
 }
 
 .header li:hover {
@@ -118,12 +120,14 @@ a {
   padding: 0;
   background: rgba(33,33,33,.7);
   width: 450px;
+  padding-left: 5px;
 }
 
 .jumbotron .title h2 {
   font-size: 31px;
   font-weight: 300;
   color: rgba(255,255,255,.5);
+  width: 360px;
 }
 
 .jumbotron .title h1 {
@@ -140,6 +144,12 @@ a {
 
 .main .heading {
   padding-top: 5px;
+  font-size: 17px;
+  color: #333;
+}
+
+.main .heading h2 {
+  background:
 }
 
 .disps {
@@ -149,10 +159,13 @@ a {
 
 .disps .content {
   width: 590px;
+
+
 }
 
-.disps .content h3{
-  padding: 115px 0 0 60px;
+
+.disps .content h3 {
+  padding: 130px 0 0 60px;
   font-size: 2em;
   margin-bottom: 0;
 }
@@ -162,7 +175,22 @@ a {
   font-size: 16px;
   margin-top: 5px;
   font-weight: 500;
+  padding-bottom: 20px;
 }
+
+.btn1 {
+  background-color: rgba(100,100,100,.5);
+  color: white;
+  padding: 5px 10px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background-color: #be630e;
+}
+
+
 
 
 .disp1 {
@@ -195,6 +223,7 @@ a {
 .disp4 {
   background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_History_InlineR_A_0.jpg);
   background-size: cover;
+
   height: 400px;
   width: 100%;
 }
