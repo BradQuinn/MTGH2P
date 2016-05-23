@@ -3,14 +3,14 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
-  background: #151515;
+  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/background.jpg) center center;
   text-decoration: none;
 }
-
 
 a {
   text-decoration: none;
 }
+
 .container {
   margin: 0px 191px;
   border: 0;
@@ -20,9 +20,9 @@ a {
 
 .header {
   background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/bg-header.png) 0 0 repeat-x;
+  background-color: #151515;
   background-size: auto 100%;
   height: 100px;
-
 
 }
 
@@ -123,14 +123,14 @@ a {
   padding-left: 5px;
 }
 
-.jumbotron .title h2 {
+.jumbotron .title h1 {
   font-size: 31px;
   font-weight: 300;
   color: rgba(255,255,255,.5);
   width: 360px;
 }
 
-.jumbotron .title h1 {
+.jumbotron .title h2 {
   font-family: "Beleren Bold",sans-serif;
   font-size: 50px;
   font-weight: normal;
@@ -226,4 +226,90 @@ a {
 
   height: 400px;
   width: 100%;
+}
+
+.footer1 {
+  margin-top: 115px;
+  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/background.jpg) center center;
+  background: #000;
+}
+
+
+.fTop {
+  height: 160px;
+  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/where-to-buy-background.jpg) 50% 0 no-repeat #000;
+}
+
+.fBottom {
+  height: 270px;
+  background: #151515;
+  clear: both;
+  margin: 0;
+
+}
+
+.footer1 .left, .footer1 .right {
+  width: 550px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.footer1 .left {
+  width: 400px;
+}
+
+.footer1 .left {
+  float: left;
+  color: white;
+}
+
+.footer1 .left h4, .footer1 .left p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer1 .left h4 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.footer1 .left img {
+  float: left;
+  margin: 0 20px 0 45px;
+}
+
+.footer1 .right {
+  float: right;
+  margin-right: 150px;
+}
+
+.footer1 .right form .postCode {
+  width: 255px;
+  background: #d0d0d0;
+  color: #333;
+  border: 0;
+  height: 35px;
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 5px;
+  outline: none;
+}
+
+.formButton {
+  font-size: 14px;
+  height: 38px;
+  color: white;
+  background: #2f2f2f;
+  border: none;
+  width: 180px;
+  margin-left: 75px;
+  font-weight: bold;
+}
+
+.formButton:hover {
+  background-color: white;
+  border: 1px solid #be630e;
+  color: #be630e;
 }
