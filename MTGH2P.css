@@ -90,7 +90,6 @@ a {
   float: right;
   margin: 0;
   text-align: center;
-  height: 50px;
 }
 
 .header .menu li {
@@ -98,10 +97,11 @@ a {
   text-align: center;
   position: relative;
   list-style: none;
+
+
 }
 
 .header .menu li a {
-    height: 35px;
     border-left: 1px inset white;
     display: block;
 }
@@ -115,6 +115,7 @@ a {
     height: auto;
     text-transform: uppercase;
     display: none;
+    width: 100%;
 }
 
 .header .menu li:hover ul {
@@ -123,12 +124,15 @@ a {
 
 .header .nav-main li a {
   color: white;
-  height: 50px;
   font-size: 12px;
-  padding: 0px 20px;
+  padding: 18px 20px;
   font-weight: 600;
   margin: 0;
 
+}
+
+.header .menu ul li {
+  float:none;
 }
 
 .header .active {
