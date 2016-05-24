@@ -151,7 +151,6 @@ a {
   background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_AboutTheGame_Header_12.jpg) center top;
   background-size: cover;
   height: 500px;
-  margin: 0!important;
 }
 
 .jumbotron .container{
@@ -224,15 +223,20 @@ a {
 
 .btn1 {
   background-color: rgba(100,100,100,.5);
+  background: url(disparrow.png) no-repeat #424040;
   color: white;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 32px;
   margin-left: 100px;
   font-weight: bold;
+  float:left;
 }
 
 .btn1:hover {
   background-color: #be630e;
 }
+
+
+
 
 
 
@@ -327,8 +331,19 @@ a {
   width: 100%;
 }
 
+.backtotop{
+    margin-top: 115px;
+    text-align: center;
+}
+
+.backtotop img{
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+
+}
+
 .footer1 {
-  margin-top: 115px;
   background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/background.jpg) center center;
   background: #000;
 }
@@ -440,6 +455,7 @@ a {
   color: white;
   font-size: 12px;
   font-weight: 700;
+  line-height: 28px;
 }
 
 .footer2 .mid h5 {
