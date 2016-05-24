@@ -45,19 +45,19 @@ a {
   float: right;
 }
 
-.header h4 {
+.header .nav li {
   display: inline;
   float: right;
   font-size: 12px;
   margin-right: 20px;
 }
 
-.header h4 a {
+.header .nav li a {
   color: #7e7e7e;
   font-size: 11px;
 }
 
-.header h4 a:hover{
+.header .nav li a:hover{
   color: #be630e;
 }
 
@@ -69,7 +69,6 @@ a {
 }
 
 .header form input {
-    background-color: #424040;
     border: #424040;
     border-radius: 2px;
     padding-left: 30px;
@@ -77,6 +76,7 @@ a {
     height: 18px;
     font-size: 10px;
     outline:none;
+    background: url(searchicon.png) no-repeat #424040 3px 1px;
 }
 
 .nav-main{
@@ -94,25 +94,34 @@ a {
 }
 
 .header .menu li {
-  display: inline;
-  min-width: 140px;
   float: left;
   text-align: center;
-  height: 35px;
-  border-left: 1px inset white;
-  padding-top: 15px;
   position: relative;
-
+  list-style: none;
 }
 
-.header ul ul {
+.header .menu li a {
+    height: 35px;
+    border-left: 1px inset white;
+    display: block;
+}
+
+.header .menu ul {
     position: absolute;
     top: 50px;
     left: 0;
     padding-left: 0;
+    background: #403d3d;
+    height: auto;
+    text-transform: uppercase;
+    display: none;
 }
 
-.header li a {
+.header .menu li:hover ul {
+    display: block;
+}
+
+.header .nav-main li a {
   color: white;
   height: 50px;
   font-size: 12px;
@@ -128,19 +137,9 @@ a {
   height: 50px!important;
 }
 
-.header li:hover {
+.header a:hover {
   background-color: #be630e;
 
-}
-
-.header .dropdown {
-  display: none;
-  width: 140px;
-
-}
-
-.header .menu li:hover .dropdown ul{
-  display: block;
 }
 
 .jumbotron {
