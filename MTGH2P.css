@@ -45,19 +45,19 @@ a {
   float: right;
 }
 
-.header h4 {
+.header .nav li {
   display: inline;
   float: right;
   font-size: 12px;
   margin-right: 20px;
 }
 
-.header h4 a {
+.header .nav li a {
   color: #7e7e7e;
   font-size: 11px;
 }
 
-.header h4 a:hover{
+.header .nav li a:hover{
   color: #be630e;
 }
 
@@ -77,6 +77,7 @@ a {
     height: 18px;
     font-size: 10px;
     outline:none;
+    background: url(searchicon.png) no-repeat #424040 3px 1px;
 }
 
 .nav-main{
@@ -104,7 +105,7 @@ a {
 
 }
 
-.header li a {
+.header .nav-main li a {
   color: white;
   height: 50px;
   font-size: 12px;
@@ -120,7 +121,7 @@ a {
   height: 50px!important;
 }
 
-.header li:hover {
+.header .nav-main li:hover {
   background-color: #be630e;
 
 }
