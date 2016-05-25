@@ -336,28 +336,27 @@ a {
 }
 
 .footer1 {
-  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/background.jpg) center center;
-  background: #000;
+  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/where-to-buy-background.jpg) center center repeat-x;
+  background-size: cover;
 }
 
+.footer1 .container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
 .fTop {
   height: 160px;
-  background: url(http://magic.wizards.com/sites/all/themes/wiz_mtg/img/interface/where-to-buy-background.jpg) 50% 0 no-repeat #000;
 }
 
 
 .footer1 .left, .footer1 .right {
-  width: 550px;
   margin: 0;
   padding-top: 30px;
 }
 
 .footer1 .left {
-  width: 400px;
-}
-
-.footer1 .left {
+  width: 40%;
   float: left;
   color: white;
 }
@@ -380,7 +379,7 @@ a {
 
 .footer1 .right {
   float: right;
-  margin-right: 150px;
+  width: 60%;
 }
 
 .footer1 .right form .postCode {
@@ -552,6 +551,16 @@ a {
 @media all and (max-width:1024px) {
   .container {
     margin: 0 90px;
+  }
+
+  .footer1 {
+    height:200px;
+  }
+
+  .footer1 .left, .footer1 .right {
+    width: 100%;
+    float: none;
+    text-align: center;
   }
 }
 
