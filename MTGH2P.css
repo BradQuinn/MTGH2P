@@ -28,19 +28,16 @@ a {
 
 .header .container {
   height: 100px;
-
+  width: 1200px;
+  margin: auto;
 }
 
-.header .home {
-  background: url(http://magic.wizards.com/sites/mtg/files/logo-magic.png) center center no-repeat;
-  background-size: cover;
-  width:258px;
-  height:104px;
+.header img {
   float: left;
+  width: 21%;
 }
 
 .nav-top{
-  height: 50px;
   width: 50%;
   float: right;
 }
@@ -80,8 +77,9 @@ a {
 }
 
 .nav-main{
-  height:50px;
-  width: 100%;
+  float: right;
+  width: 79%;
+  margin-top: 17px;
 }
 
 
@@ -201,7 +199,7 @@ a {
 }
 
 .disps .content {
-  width: 590px;
+  width: 50%;
 
 
 }
@@ -236,11 +234,6 @@ a {
 }
 
 
-
-
-
-
-
 .disp1 {
   background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_CardSetArchive_inlineR_A_4.jpg);
   background-size: cover;
@@ -252,7 +245,8 @@ a {
   color: #212121;
   margin: 40px 0 20px;
   text-align: center;
-  width: 1200px;
+  display: block;
+  margin: 0 auto;
   font-size: 30px;
 
 }
@@ -538,4 +532,36 @@ a {
 
 .clearfix {
     clear: both;
+}
+
+@media all and (max-width: 1200px) {
+  .header .container {
+    width: auto;
+  }
+  .header img {
+    width: 10%
+  }
+  .header .nav-main {
+    width: 90%;
+  }
+  .header .nav-top {
+    width: 90%;
+  }
+
+
+}
+
+@media all and (max-width:1024px) {
+  .container {
+    margin: 0 90px;
+  }
+}
+
+@media all and (max-width:760px) {
+  .container {
+    margin: 0 30px;
+  }
+  .disps .content h3 {
+    padding-top: 30px;
+  }
 }
