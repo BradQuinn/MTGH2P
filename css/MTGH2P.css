@@ -73,7 +73,7 @@ a {
     height: 18px;
     font-size: 10px;
     outline:none;
-    background: url(searchicon.png) no-repeat #424040 3px 1px;
+    background: url(../images/searchicon.png) no-repeat #424040 3px 1px;
 }
 
 .nav-main{
@@ -217,7 +217,7 @@ a {
 
 .btn1 {
   background-color: rgba(100,100,100,.5);
-  background: url(disparrow.png) no-repeat #424040;
+  background: url(../images/disparrow.png) no-repeat #424040;
   color: white;
   padding: 5px 10px 5px 32px;
   margin-left: 100px;
@@ -536,16 +536,39 @@ a {
     width: auto;
   }
   .header img {
-    width: 10%
   }
   .header .nav-main {
-    width: 90%;
+    width: auto;
   }
   .header .nav-top {
-    width: 90%;
+    width: auto;
+  }
+  .header .nav-main li a {
+      padding: 18px 14px;
+  }
+  .nav-top .nav {
+      float: left;
+  }
+  .nav-main {
+      margin-top: 4px;
+  }
+  .jumbotron {
+      height: 350px;
+  }
+  .jumbotron .container {
+      padding-top: 150px;
   }
 
+}
 
+@media screen and (max-width: 1050px) {
+    .nav-main {
+        display: none;
+    }
+    .header, .header .container {
+        height: auto;
+        min-height: 54px;
+    }
 }
 
 @media all and (max-width:1024px) {
@@ -569,6 +592,34 @@ a {
     margin: 0 30px;
   }
   .disps .content h3 {
-    padding-top: 30px;
+    padding: 30px 0 0 33px;
+  }
+  .disps .content p {
+    padding-left: 33px;
+  }
+  .disps .content {
+      padding-bottom: 4px;
+  }
+  .disps form {
+      margin-top: 0px;
+      padding-bottom: 10px;
+  }
+  .disp2i, .disp3, .disp1, .disp4 {
+      height: auto;
+  }
+  .disp3 .content::after, .disp4 .content::after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+  .disp3 .content, .disp4 .content {
+      padding-bottom: 20px;
+  }
+  .btn1 {
+      margin-left: 33px;
+  }
+  .fTop .left {
+      max-width: 390px;
+      margin: 0 auto;
   }
 }
