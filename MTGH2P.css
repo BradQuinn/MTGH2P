@@ -54,7 +54,7 @@ a {
   font-size: 11px;
 }
 
-.header .nav li a:hover{
+.header .nav-top li a:hover{
   color: #be630e;
 }
 
@@ -140,7 +140,7 @@ a {
   height: 50px!important;
 }
 
-.header a:hover {
+.header .nav-main a:hover {
   background-color: #be630e;
 
 }
