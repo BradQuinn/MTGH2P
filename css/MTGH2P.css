@@ -424,7 +424,7 @@ a {
 .footer2 .left {
   float: left;
   width: 150px;
-  margin: 80px 40px 0 350px;
+  margin: 80px 40px 0 20%;
 }
 
 .footer2 .mid {
@@ -561,6 +561,9 @@ a {
   .footer2 img{
     margin-left:
   }
+  .footer2 .left {
+    margin: 80px 40px 0 5%;
+  }
 
 }
 
@@ -665,5 +668,8 @@ a {
   .footer2 .left {
     clear:both;
 
+  }
+  .footer2 .right {
+    display:none;
   }
 }
