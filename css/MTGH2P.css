@@ -32,7 +32,7 @@ a {
   margin: auto;
 }
 
-.header img {
+.header .home img {
   float: left;
   width: 21%;
 }
@@ -144,6 +144,17 @@ a {
   background-color: #be630e;
 
 }
+
+.header .hamburgerMenu {
+  float: right;
+  display: none;
+}
+.header .hamburgerMenu img {
+  float: right;
+  width: 21%;
+      padding-right: 10px;
+}
+
 
 .jumbotron {
   background: url(http://magic.wizards.com/sites/mtg/files/images/featured/EN_AboutTheGame_Header_12.jpg) center top;
@@ -535,8 +546,7 @@ a {
   .header .container {
     width: auto;
   }
-  .header img {
-  }
+
   .header .nav-main {
     width: auto;
   }
@@ -572,6 +582,12 @@ a {
     .header, .header .container {
         height: auto;
         min-height: 65px;
+    }
+
+    .header .hamburgerMenu {
+      display: block;
+      width: auto;
+
     }
 }
 
@@ -617,6 +633,10 @@ a {
   .container {
     margin: 0 30px;
   }
+  .header .home img{
+    float: left;
+    margin: 0 auto;
+ }
   .jumbotron {
     height: 250px;
   }
@@ -654,10 +674,6 @@ a {
   .fTop .left {
       max-width: 390px;
       margin: 0 auto;
-  }
-   .header img{
-     float: none;
-     margin: 0 auto;
   }
 
   .footer2 .mid .mainText {
