@@ -558,9 +558,7 @@ a {
   .jumbotron .container {
       padding-top: 150px;
   }
-  .footer2 img{
-    margin-left:
-  }
+
   .footer2 .left {
     margin: 80px 40px 0 5%;
   }
@@ -667,9 +665,15 @@ a {
   }
   .footer2 .left {
     clear:both;
+    padding-left: 20px;
+}
+  .footer2 .right {
+    clear: both;
+  }
+  .footer2 .right img {
+    display: inline;
+    padding-bottom: 0;
 
   }
-  .footer2 .right {
-    display:none;
-  }
+
 }
